@@ -22,9 +22,9 @@ class CrucialBuilder implements MemoryBuilder {
 
   getMemory() {
     let busClock = 400;
-    if (busClock >= 4) {
+    if (this._ddr >= 4) {
       busClock = 1600;
-    } else if (busClock >= 3) {
+    } else if (this._ddr >= 3) {
       busClock = 800;
     }
 
@@ -56,4 +56,6 @@ const director = new MemoryDirector(builder);
 director.construct();
 
 const product = builder.getMemory();
+
+// Memory { size: 8, ddr: 4, busClock: 1600 }
 console.log(product);
