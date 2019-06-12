@@ -1,4 +1,5 @@
 // Concrete implementation of Abstract Factory
+export {};
 
 // Abstract product 1
 abstract class CPU {

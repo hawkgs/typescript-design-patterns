@@ -1,4 +1,5 @@
 // Abstract implementation of Abstract Factory
+export {};
 
 abstract class AbstractProduct {
   abstract value: unknown;

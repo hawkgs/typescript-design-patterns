@@ -1,4 +1,5 @@
 // Concrete implementation of Builder
+export {};
 
 // Abstract builder
 interface MemoryBuilder {

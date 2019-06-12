@@ -1,4 +1,5 @@
 // Abstract implementation of Builder
+export {};
 
 interface Builder {
   buildPart(v: number): void;
